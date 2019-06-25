@@ -1,0 +1,36 @@
+{
+  "name": "host",
+  "version": "1.0.0",
+  "description": "img",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitriy Lipatov (Lipton-ice-tea)",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-once": "^2.0.3",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^1.0.0",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-util": "^3.0.8",
+    "gulp-vinyl-zip": "^2.1.0",
+    "gulp-waitfor": "0.0.13",
+    "image-size": "^0.7.2",
+    "imagemin-guetzli": "^2.0.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "rename-files-b": "^1.0.1",
+    "request": "^2.88.0",
+    "stream-combiner2": "^1.1.1",
+    "vinyl-ftp": "^0.6.1"
+  },
+  "dependencies": {
+    "gulp-jimp": "^1.2.9"
+  }
+}
